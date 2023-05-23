@@ -1,0 +1,8 @@
+Data of each wave is stored in a rolling queue array where the array is overwritten progressively in a repeating fashion. 
+When each wave is emitted, the current time, as well as the position and velocity of the source, is stored in an object to 
+be used later. To find which wave is currently being detected by the observer, the program goes through each wave to 
+try to find the closest wave that has passed the observer, if any. If an observer wave is found, the perceived 
+frequency and amplitude are calculated using the vector position and velocity of the observer as well as the vector 
+position and velocity of the source from the time of wave emission (using the source wave data structure mentioned earlier) 
+to find the components of the projected velocities of the source and observer in the relative direction of the observer and source,
+respectively.

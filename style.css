@@ -9,15 +9,25 @@ body {
 .section {
     margin: 5px;
     padding: 5px;
-    background-color: #FAE5D3;
+    background-color: #f0f;
+    color: black;
     border: 10px solid #000;
+}
+
+.W {
+    margin: 5px;
+    padding: 5px;
+    background-color: #00f;
+    color: white;
+    border: 5px solid #000;
+    border-radius: 15px;
 }
 
 .group {
     margin: 5px;
     padding: 5px;
     background-color: #00f;
-    border: 10px solid #000;
+    border: 5px solid #000;
 }
 
 .panel {
@@ -27,3 +37,85 @@ body {
     background-color: #eee;
     border: 5px inset #888;
 }
+
+.content {
+    margin: 5px;
+    padding: 10px;
+    background-color: #ddd;
+}
+
+.heading {
+    margin: 5px;
+    padding: 5px;
+}
+
+.label {
+    margin: 5px;
+    padding: 5px;
+}
+
+.button {
+    display: inline-block;
+    margin: 1px;
+    padding: 5px 10px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.button:disabled {
+    background-color: #888;
+    cursor: default;
+}
+
+.canvas {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    background-color: #000;
+}
+
+#main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 15px solid #000;
+    background-color: #fff;
+}
+
+#title {
+    margin: 5px;
+    padding: 20px;
+}
+
+#button-twave-show, #button-twave-hide{
+    background-color: #ff0;
+}
+
+#button-twave-show:disabled, #button-twave-hide:disabled {
+    background-color: #880;
+}
+
+#button-control-source, #button-control-observer {
+    padding: 10px 20px;
+}
+
+#button-control-source {
+    background-color: #f00;
+}
+
+#button-control-source:disabled {
+    background-color: #800;
+}
+
+#button-control-observer {
+    background-color: #0f0;
+}
+
+#button-control-observer:disabled {
+    background-color: #080;
+}
+
+
