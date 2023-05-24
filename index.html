@@ -4,7 +4,7 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Simulation of the doppler effect, particularized in the context of sound waves and explored through scenarios where a wave emitting source and wave detecting observer move with a user controllable position, velocity or acceleration.">
-        <meta name="keywords" content="doppler, effect, physics, simulation, lab, sound, waves, dr.platt">
+        <meta name="keywords" content="doppler, effect, physics, simulation, project, sound, waves, dr.platt">
         <meta name="author" content="Giovanni Aidie">
         <title>Doppler Effect Simulation</title>
         <link rel="icon" type="image/x-icon" href="./favicon.ico">
@@ -182,8 +182,36 @@
                     </div>
                 </div>
             </div>
-            
+            <div class="section">
+                <h2 class="heading">View</h2>
+                <div class="group">
+                    <div class="panel">
+                        <h3 class="label">POSITION OF TIME</h3>
+                        <div class="content">
+                            <canvas width="800" height="600" id="canvas-position" class="canvas"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <h2 class="heading">Graphs</h2>
+                <div class="group">
+                    <div class="panel">
+                        <h3 class="label">FREQUENCY vs TIME</h3>
+                        <div class="content">
+                            <canvas width="800" height="200" id="canvas-frequency" class="canvas"></canvas>
+                        </div>
+                    </div>
+                    <div class="panel">
+                        <h3 class="label">AMPLITUDE vs TIME</h3>
+                        <div class="content">
+                            <canvas width="800" height="200" id="canvas-amplitude" class="canvas"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-            
+        <script src="./script.js"></script>
     </body>
+</html>
     
