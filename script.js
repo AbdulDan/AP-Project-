@@ -56,4 +56,16 @@ let obs = {
     }
 };
 
+let wavs = [];
 
+let freqh = {src: [], obs: []};
+let amph = {src: [], obs: []};
+
+for(let f = 0; f < num; t++){
+    wavs[t] = null;
+    
+    freqh.src[t] = null;
+    freqh.obs[t] = null;
+    amph.src[t] = null;
+    amph.obs[t] = null;
+}
